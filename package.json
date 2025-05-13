@@ -1,0 +1,16 @@
+{
+  "name": "basicmcoservice",
+  "version": "1.0.0",
+  "main": "src/index.ts",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "start": "node --experimental-strip-types src/index.ts",
+    "dev": "node --watch --experimental-strip-types src/index.ts"
+  },
+  "dependencies": {
+    "@prisma/client": "^6.7.0",
+    "amqp-ts": "^1.8.0",
+    "prisma": "^6.7.0"
+  }
+}
